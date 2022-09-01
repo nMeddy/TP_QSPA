@@ -1,0 +1,132 @@
+/*GENERAL*/
+:root {
+    --yellow: linear-gradient(180deg, #F8D49A -146.42%, #FAD79D -46.42%);
+    --orange: #fca61f;
+    --black: #242d49;
+    --gray: #788097;
+    --purple: linear-gradient(#ecdef7 0%, rgb(235, 221, 245) -10%);
+    --pink: #FF919D;
+    --glass: rgba(255, 255, 255, 0.54);
+    --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+    --boxShadow2: 0px 20px 75px rgb(0 0 0 / 10%);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+    --activeItem: #f799a354;
+    --body-color: whitesmoke;
+    --sidebar-color: #FFF;
+    --primary-color: #695CFE;
+    --toggle-color: #DDD;
+    --text-color: #707070;
+
+    /* transition */
+    --tran-02: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.4s ease;
+    --tran-05: all 0.7s ease;
+}
+
+* {
+    font-family: monsterrat, candara, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+p {
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: lighter;
+}
+
+button {
+    border: none;
+    border-radius: 0.7rem;
+    color: #fff;
+    background-color: var(--primary-color);
+}
+
+body {
+    transition: var(--tran-05);
+}
+
+/*GENERAL*/
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url('https: //i.pinimg.com/736x/8c/94/07/8c9407cf3667a2d3fe1b0052b5ff5f40.jpg');
+}
+
+.link {
+    margin-right: 10rem;
+}
+
+.userGroup {
+    cursor: pointer;
+}
+
+.Middle {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    width: 100%;
+}
+
+.btn-launch {
+    padding: 7px;
+    width: 7rem;
+    border: none;
+    border-radius: 0.7rem;
+    color: #fff;
+    background-color: var(--primary-color);
+}
+.modal-body>span{
+    overflow-y: scroll;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.sec-1{
+    margin: 4rem auto;
+}
+.card{
+    border: none;
+    box-shadow: var(--boxShadow2);
+    border-radius: 1rem;
+}
+.card-img-top{
+    height: 35vh;
+}
+.card-title{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+/* Mobile device */
+
+@media (max-width: 768px) {}

@@ -1,0 +1,99 @@
+/*GENERAL*/
+:root {
+    --yellow: linear-gradient(180deg, #F8D49A -146.42%, #FAD79D -46.42%);
+    --orange: #fca61f;
+    --black: #242d49;
+    --gray: #788097;
+    --purple: linear-gradient(#ecdef7 0%, rgb(235, 221, 245) -10%);
+    --pink: #FF919D;
+    --glass: rgba(255, 255, 255, 0.54);
+    --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+    --boxShadow2: 0px 20px 75px rgb(0 0 0 / 10%);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+    --activeItem: #f799a354;
+    --body-color: whitesmoke;
+    --sidebar-color: #FFF;
+    --primary-color: #695CFE;
+    --toggle-color: #DDD;
+    --text-color: #707070;
+
+    /* transition */
+    --tran-02: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.4s ease;
+    --tran-05: all 0.7s ease;
+}
+
+* {
+    font-family: abel, candara, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+p {
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: lighter;
+}
+
+button {
+    border: none;
+    border-radius: 0.7rem;
+    color: #fff;
+    background-color: var(--primary-color);
+}
+
+body {
+    transition: var(--tran-05);
+    background-image: url('./asset/bgUXdesign.jpeg');
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* mainPart */
+.main {
+    border-radius: 3rem;
+    background-color: rgb(0 0 0 / 40%);
+    display: flex;
+    justify-content: space-around;
+   
+}
+.topTitle{
+   font-size: 20px;
+}
+.headTitle{
+    font-size: 50px;
+    font-weight: 800;
+}
+.btn{
+    border-radius: 3rem;
+    background-color: rgb(128 128 128/20%)
+}
+.btn:hover{
+    border-radius: 3rem;
+    background-color: rgb(0 0 0 / 30%)
+}
+
+/* Mobile device */
+
+@media (max-width: 768px) {}
